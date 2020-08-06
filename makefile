@@ -18,20 +18,21 @@ LIBS =
 
 LFLAGS = -L/usr/local/lib -lclapack -lcblas
 
-INCLUDES = -I/Users/whutzel/local_code/development/c_code/nonlinear
+INCLUDES = -I/Users/whutzel/local_code/development/c_code/lagrange_interp/lagrange/
 
-############################################################################################## Deifne source
+##############################################################################################
+#	Define source
 #	$(SRCS) = these are source files
 #	$(OBJS) = These are dependencis or *.o files made from sources
 #	$(EXES) = These are the executables to be generated
 #############################################################################################
 
-SRCS = 	functions.c deriv_functions.c neqn_solver_nonlin.c
+SRCS = 	lagrange.c\
+	fnc_lagrange.c
 
 OBJS =	$(SRCS:.c=.o)
 
-EXES = 	nonlin_solver
-
+EXES = 	lagrange
 #############################################################################################
 # The next lnes are meant to be generic, modifying above, you can make any executable from
 # these commands.
