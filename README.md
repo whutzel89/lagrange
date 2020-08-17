@@ -37,7 +37,7 @@ The code samples npoints from the ener and density arrays. Note: the sampling me
   ![Order 7 poly](https://github.com/whutzel89/lagrange/blob/master/order7.png)
   ![Order 8 poly](https://github.com/whutzel89/lagrange/blob/master/order8.png)
   
-  If we push the code pas sampling the less than order 2 or order 8 polynomials
+  If we push the code less than order 2 or greater than order 8 polynomials we see the fit starts to trend away from the experimental data.
 
 ## Setup
 
