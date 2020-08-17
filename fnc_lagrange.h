@@ -1,5 +1,5 @@
 #ifndef HDR_LAGRANGE
 #define HDR_LAGRANGE
 
-double lagrange_interp(int,int,int,double x[],double y[],double);
+double lagrange_interp(int,int,int,double ener[],double density[],double);
 #endif
