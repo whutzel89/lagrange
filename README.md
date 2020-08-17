@@ -43,7 +43,6 @@ To runt the file you will need to pull fnc_lagrange.c, fnc_lagrange.h, cross_sca
 gcc  -I/your_directory/lagrange/ -c  lagrange.c
 gcc  -I/your_directory/lagrange/ -c  fnc_lagrange.c
 gcc -g -Wall -o lagrange lagrange.o fnc_lagrange.o -L/usr/local/lib -lclapack -lcblas 
-
 '''
 
 ## Authors
