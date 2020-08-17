@@ -31,6 +31,7 @@ where,
 <a href="https://www.codecogs.com/eqnedit.php?latex=P_j(x)&space;=&space;y_j&space;\prod_{k&space;\neq&space;j}^n&space;\frac{x-x_k}{x_j-x_k}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P_j(x)&space;=&space;y_j&space;\prod_{k&space;\neq&space;j}^n&space;\frac{x-x_k}{x_j-x_k}" title="P_j(x) = y_j \prod_{k \neq j}^n \frac{x-x_k}{x_j-x_k}" /></a>
 
 The code samples npoints from the ener and density arrays. Note: the sampling method is not perfect but runs resonably well for this small code snippet. Choosing different orders of fucntion results in varying fits as shown in the below figures:
+  
   ![Order 3 poly](https://github.com/whutzel89/lagrange/blob/master/order3.png)
   ![Order 4 poly](https://github.com/whutzel89/lagrange/blob/master/order4.png)
   ![Order 7 poly](https://github.com/whutzel89/lagrange/blob/master/order7.png)
