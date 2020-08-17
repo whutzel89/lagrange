@@ -39,11 +39,11 @@ If we push the code further we shoud find that for very large numbers of runs we
 
 To runt the file you will need to pull fnc_lagrange.c, fnc_lagrange.h, cross_scattering.dat, and lagrange.c Make sure the dependencies in installation are installed on your computer. Use the make command to compile the code. Proper compilationf of the code will results in the follwoing terminal message:
 
-'''
-gcc  -I/your_directory/lagrange/ -c  lagrange.c
-gcc  -I/your_directory/lagrange/ -c  fnc_lagrange.c
-gcc -g -Wall -o lagrange lagrange.o fnc_lagrange.o -L/usr/local/lib -lclapack -lcblas 
-'''
+
+    gcc  -I/your_directory/lagrange/ -c  lagrange.c
+    gcc  -I/your_directory/lagrange/ -c  fnc_lagrange.c
+    gcc -g -Wall -o lagrange lagrange.o fnc_lagrange.o -L/usr/local/lib -lclapack -lcblas 
+
 
 ## Authors
 
